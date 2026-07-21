@@ -13,7 +13,7 @@ import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
-ARC_HOME = Path("/home/supermepsipax/Code/cellranger/cellranger-arc-2.2.0")
+ARC_HOME = Path(__file__).resolve().parent.parent / "cellranger-arc-2.2.0"
 GEX_WHITELIST = ARC_HOME / "lib/python/cellranger/barcodes/737K-arc-v1.txt.gz"
 ATAC_WHITELIST = ARC_HOME / "lib/python/atac/barcodes/737K-arc-v1.txt.gz"
 
