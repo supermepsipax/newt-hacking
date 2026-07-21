@@ -1,0 +1,11 @@
+# Python-generated files
+__pycache__/
+cellranger-arc-2.2.0/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
