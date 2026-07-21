@@ -9,3 +9,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated / bulk data -- regenerate with the notebook, never commit
+data/
+run/
+*.fastq
+*.fastq.gz
+*.tar.xz
